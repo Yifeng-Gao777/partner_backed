@@ -1,0 +1,43 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: yupao_backend
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    url: jdbc:mysql://101.132.114.12:3306/lihui
+    url: jdbc:mysql://localhost:3306/yupao_db
+    #    username: lihui
+    username: root
+    password: 123456
+  #session 失效时间 （1天）
+  session:
+    timeout: 86400
+    store-type: redis
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  #redis配置
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+    session:
+      cookie:
+        domain: localhost
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: isDelete  # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+
+  configuration:
+    map-underscore-to-camel-case: false
