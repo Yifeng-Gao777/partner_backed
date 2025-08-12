@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lihui</groupId>
-    <artifactId>yupao-backend</artifactId>
+    <artifactId>partner-backed</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>yupao-backend</name>
     <description>yupao-backend</description>
