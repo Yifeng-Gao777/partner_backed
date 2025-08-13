@@ -3,7 +3,7 @@ package com.gyf.partner_backend.contant;
 /**
  * 用户常量
  *
- * @author lihui
+ * @author gyf
  */
 
 public interface UserContant {

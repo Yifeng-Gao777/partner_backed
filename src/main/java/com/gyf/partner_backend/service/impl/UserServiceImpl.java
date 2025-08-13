@@ -35,8 +35,6 @@ import static com.gyf.partner_backend.contant.UserContant.USER_LOGIN_STATE;
 
 
 /**
- * @author lihui
- * @author lihui
  * @description 针对表【user(用户)】的数据库操作Service实现
  * @createDate 2024-07-26 19:06:08
  * <p>
@@ -50,7 +48,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     /**
      * 加盐混淆密码
      */
-    final static String SALT = "lihui"; //加盐
+    final static String SALT = "gyf"; //加盐
     @Autowired
     private GlobalExceptionHandler globalExceptionHandler;
     //    /**
@@ -104,7 +102,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             return -1;
         }
         // 2. 加密
-//        final String SALT = "lihui";
         String encryptPassword = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
         // 3. 插入数据
         User user = new User();
@@ -142,7 +139,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             return null;
         }
         // 2.查询用户是否存在
-//        final String SALT = "lihui";
         String encryptPassword = DigestUtils.md5DigestAsHex((SALT + userPassword).getBytes());
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("userAccount", userAccount);

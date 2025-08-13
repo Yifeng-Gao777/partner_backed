@@ -15,7 +15,7 @@ public class InsterUsers {
 
     /*
      * @Description: 批量插入用户
-     * @Author: lihui
+     * @Author: gyf
      */
 //    @Scheduled(initialDelay = 5000, fixedRate = Long.MAX_VALUE)
     public void doInsertUsers() {
@@ -26,8 +26,8 @@ public class InsterUsers {
 
         for (int i = 0; i < INSTER_NUM; i++) {
             User user = new User();
-            user.setUsername("假的李慧");
-            user.setUserAccount("fakelihui");
+            user.setUsername("假的gyf");
+            user.setUserAccount("fakegyf");
             user.setAvatarUrl("http://b.hiphotos.baidu.com/image/pic/item/359b033b5bb5c9ea5c0e3c23d139b6003bf3b374.jpg");
             user.setGender(0);
             user.setUserPassword("cf7a6e3ef218a1d63c758ea0922ea9e7");

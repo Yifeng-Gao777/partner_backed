@@ -12,7 +12,7 @@ import com.gyf.partner_backend.model.vo.TeamUserVO;
 import java.util.List;
 
 /**
- * @author lihui
+ * @author gyf
  * @description 针对表【team(队伍)】的数据库操作Service
  * @createDate 2024-11-05 15:05:06
  */

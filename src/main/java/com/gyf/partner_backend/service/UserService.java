@@ -7,8 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * @author lihui
- * @author lihui
+ * @author gyf
  * @description 针对表【user(用户)】的数据库操作Service
  * @createDate 2024-07-26 19:06:08
  * <p>

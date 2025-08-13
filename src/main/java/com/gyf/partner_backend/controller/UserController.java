@@ -29,12 +29,12 @@ import static com.gyf.partner_backend.contant.UserContant.USER_LOGIN_STATE;
 /**
  * 用户接口
  *
- * @author lihui
+ * @author gyf
  */
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = {"http://192.168.1.105:3000", "http://localhost:5173","http://friend.huifly.cn","https://friend.huifly.cn"}, allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:5173"}, allowCredentials = "true")//添加前端跨域地址
 @Slf4j
 public class UserController {
 

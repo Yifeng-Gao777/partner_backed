@@ -7,7 +7,7 @@ import java.io.Serializable;
 /**
  * 通用返回类
  *
- * @author lihui
+ * @author gyf
  */
 @Data
 public class BaseResponse<T> implements Serializable {

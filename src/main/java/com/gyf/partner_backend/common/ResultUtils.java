@@ -3,7 +3,7 @@ package com.gyf.partner_backend.common;
 /**
  * 返回工具类
  *
- * @author lihui
+ * @author gyf
  */
 public class ResultUtils {
 

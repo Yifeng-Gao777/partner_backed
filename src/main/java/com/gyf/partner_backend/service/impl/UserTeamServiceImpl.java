@@ -7,7 +7,7 @@ import com.gyf.partner_backend.mapper.UserTeamMapper;
 import org.springframework.stereotype.Service;
 
 /**
-* @author lihui
+* @author gyf
 * @description 针对表【user_team(用户队伍关系)】的数据库操作Service实现
 * @createDate 2024-11-05 15:07:05
 */

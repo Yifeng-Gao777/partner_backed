@@ -31,7 +31,7 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author lihui
+ * @author gyf
  * @description 针对表【team(队伍)】的数据库操作Service实现
  * @createDate 2024-11-05 15:05:06
  */

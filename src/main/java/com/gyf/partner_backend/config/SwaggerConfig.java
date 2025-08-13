@@ -26,7 +26,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 .select()
                 // 这里一定要标注你控制器的位置
-                .apis(RequestHandlerSelectors.basePackage("com.lihui.yupao_backend.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.gyf.partner_backend.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -40,8 +40,8 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("伙伴匹配")
                 .description("伙伴匹配接口文档")
-                .termsOfServiceUrl("https://github.com/lihuibear")
-                .contact(new Contact("lihuibear", "https://github.com/lihuibear", "xxx@qq.com"))
+                .termsOfServiceUrl("https://github.com/Yifeng-Gao777/partner_backed")
+                .contact(new Contact("gyf", "https://github.com/Yifeng-Gao777/partner_backed", "xxx@qq.com"))
                 .version("1.0")
                 .build();
     }

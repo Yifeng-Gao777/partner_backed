@@ -34,12 +34,12 @@ import java.util.stream.Collectors;
 /**
  * 队伍接口
  *
- * @author lihui
+ * @author gyf
  */
 
 @RestController
 @RequestMapping("/team")
-@CrossOrigin(origins = {"http://friend.huifly.cn","http://192.168.1.105:3000", "http://localhost:5173","https://friend.huifly.cn"}, allowCredentials = "true")
+@CrossOrigin(origins = {"http://localhost:5173"}, allowCredentials = "true")//添加前端跨域地址
 @Slf4j
 public class TeamController {
 

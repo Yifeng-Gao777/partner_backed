@@ -6,7 +6,7 @@ import com.gyf.partner_backend.common.ErrorCode;
 /**
  * 自定义异常类
  *
- * @author lihui
+ * @author gyf
  */
 public class BusinessException extends RuntimeException {
 
